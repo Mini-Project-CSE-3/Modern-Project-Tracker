@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6C261">
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#E24030"
+
+
+        android:contextClickable="true"
+        android:longClickable="true"
+
+
+        android:text="@string/sign_up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <TextView
+        android:id="@+id/protrack"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="248dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/project_tracker"
+        android:textColor="#6F3AC9"
+        android:textIsSelectable="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Loginbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Loginbtn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#FF9800"
+        android:contextClickable="true"
+
+
+        android:longClickable="true"
+
+        android:text="@string/log_in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+    <TextView
+        android:id="@+id/descrip"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="168dp"
+        android:text="@string/descri"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/Loginbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/protrack" />
+
+    <ImageView
+        android:id="@+id/emoji"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="13dp"
+        android:contentDescription="@string/emoji"
+        app:layout_constraintBottom_toTopOf="@+id/Loginbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descrip"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_sentiment_satisfied_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

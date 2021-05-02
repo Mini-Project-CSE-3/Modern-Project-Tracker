@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PT2.0</string>
+    <string name="log_in">Log in</string>
+    <string name="project_tracker">Project Tracker</string>
+    <string name="A_platform_for">A platform for</string>
+    <string name="methodical_thinkers">methodical thinkers</string>
+    <string name="sign_up">sign up</string>
+    <string name="descri">A platform for methodical thinkers</string>
+    <string name="emoji">emoji</string>
+</resources>

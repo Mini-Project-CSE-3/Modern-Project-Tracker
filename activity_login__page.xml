@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Myellow"
+    tools:context=".Login_Page">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="131dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="446dp"
+        android:background="@color/Myellow"
+        android:contentDescription="account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <EditText
+        android:id="@+id/emailidl"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="356dp"
+        android:backgroundTint="#B71C1C"
+        android:cursorVisible="true"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="20"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/passwordl"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="276dp"
+        android:backgroundTint="@color/crimson"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:ems="10"
+        android:hint="Enter Passowrd"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailidl" />
+
+    <Button
+        android:id="@+id/submitlog"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="187dp"
+        android:backgroundTint="#008D8859"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/log_in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
